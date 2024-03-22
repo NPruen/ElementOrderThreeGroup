@@ -1,1 +1,1 @@
-"# ElementOrderThreeGroup" 
+Jonas proposed the following group: <a,b | w^3=1 for all w in {a,b}*>. That is, the group in which all non-trivial words have order three. (Here we say words, not elements, since in Z/3Z all non-trivial elements have order three aswell.) Is this group infinite? I.e. are there arbitrarily long words/ elements of arbitrary distance (word metric) from 1? This code aims to check for such words. If we define the same group but for order 2 elements, the resulting group is isomorphic to <a,b | a^2, b^2, (ab)^2> = Z/2Z x Z/2Z, i.e. it is finite.
